@@ -6,14 +6,6 @@ contract SimpleStorage {
 
     uint256 favoriteNumber;
 
-    // setup oracle wallet with permissions
-    // to read and write favoriteNumber
-    // and to transfer ether to the contract
-    // function SimpleStorage(address payable _oracle) {
-    //     favoriteNumber = 0;
-    //     oracle = _oracle;
-    // }
-
     // This is a comment!
     struct People {
         uint256 favoriteNumber;

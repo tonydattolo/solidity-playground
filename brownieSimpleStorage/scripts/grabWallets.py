@@ -2,7 +2,7 @@ from brownie import accounts, config
 import os
 
 
-def deploy_simple_storage():
+def grabWallets():
     # this will grab the local brownie ganache instance accounts to use for testing
     account_0 = accounts[0]
     print(f'{account_0} sample account from local brownie instance ganache-cli')
@@ -20,4 +20,4 @@ def deploy_simple_storage():
     # sampleFromYaml = accounts.add(config["wallets"]["sampleGanache9"]["privateKey"])
 
 def main():
-    deploy_simple_storage()
+    grabWallets()
