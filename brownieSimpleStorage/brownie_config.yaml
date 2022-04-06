@@ -1,3 +1,0 @@
-dotenv: .env
-wallets:
-  from_key: ${SAMPLE_GANACHE9_PRIVATE_KEY}

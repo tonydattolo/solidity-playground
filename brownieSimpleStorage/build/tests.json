@@ -2,6 +2,14 @@
   "contracts": {
     "SimpleStorage": "3c4b6eff04adcfae5f274e8d37909748aa215853"
   },
-  "tests": {},
+  "tests": {
+    "tests/test_1.py": {
+      "coverage": false,
+      "isolated": false,
+      "results": "..F",
+      "sha1": "649e724707c8591e565099d30ced9875c93e93b0",
+      "txhash": []
+    }
+  },
   "tx": {}
 }
