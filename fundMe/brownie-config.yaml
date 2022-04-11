@@ -1,0 +1,12 @@
+
+dependencies:
+  # - <organization>/repo@<version>
+  # chainlink:
+  - smartcontractkit/chainlink-brownie-contracts@1.1.1
+
+compiler:
+  solc:
+    remappings:
+      # need to remap the @chainlink in our contracts
+      - '@chainlink=smartcontractkit/chainlink-brownie-contracts@1.1.1'
+

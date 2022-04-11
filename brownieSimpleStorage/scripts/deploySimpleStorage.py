@@ -18,8 +18,10 @@ def deploy_simple_storage():
     print(f'{currentStoredValue=}')
 
 def get_account():
+    # check if active network is development (ganache)
     if network.show_active() == "development":
         return accounts[0]
+    # if it's an active testnet, we need an actual account
     else:
         return accounts.add(config['wallets']['from_key'])
 
